@@ -25,7 +25,7 @@ void loop() {
     //stop and turn
     motors.setSpeeds(0,0);
     delay(500);
-    motors.setRightSpeed(109);
+    motors.setRightSpeed(110);
     delay(1000);
     motors.setRightSpeed(0);
     delay(500);
