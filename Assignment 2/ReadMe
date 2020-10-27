@@ -1,0 +1,9 @@
+Assignment 2:
+
+Using the code supplied in https://github.com/venki666/CpE476_demos/tree/master/Arduino/Romi-RPi-I2CSlave
+
+a) Develop the code to move the Romi Robot in a circle using commands issued by the RPi
+
+b) Develop the code to move the Romi Robot in a square/rectangle using commands issued by the RPi
+
+In my code i used the twist function and put it inside a time loop using the built in .time() function
