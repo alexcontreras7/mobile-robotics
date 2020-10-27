@@ -20,10 +20,10 @@ def getch():
     return ch
 
 def print_instructions():
-    print "press w,a,s,d,z to move the robot, q to quit:"
+    print ("press w,a,s,d,z to move the robot, q to quit:")
 
 def print_speed():
-    print "UPDATED TWIST CMD: linear m/s %0.1f, rotation rad/s %0.1f" % (linear_ms, rotate_rads)
+    print ("UPDATED TWIST CMD: linear m/s %0.1f, rotation rad/s %0.1f" % (linear_ms, rotate_rads))
 
 def update_twist():
     """send twist to driver and change light color if moving"""
