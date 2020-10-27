@@ -6,4 +6,6 @@ a) Develop the code to move the Romi Robot in a circle using commands issued by 
 
 b) Develop the code to move the Romi Robot in a square/rectangle using commands issued by the RPi
 
-In my code i used the twist function and put it inside a time loop using the built in .time() function
+In my code i used the twist function and put it inside a time loop using the built in .time() function.
+The only thing my code required is figuring out how long of a delay and the angles I should use to make 
+a complete square/circle.
